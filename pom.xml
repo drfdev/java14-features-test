@@ -23,7 +23,11 @@
                 <version>3.8.0</version>
                 <configuration>
                     <release>${java.version}</release>
-                    <compilerArgs>${java.enable.preview}</compilerArgs>
+                    <compilerArgs>
+                        <arg>${java.enable.preview}</arg>
+                        <!-- this is run options -->
+                        <!--<arg>-XX:+ShowCodeDetailsInExceptionMessages</arg>-->
+                    </compilerArgs>
                 </configuration>
             </plugin>
             <plugin>

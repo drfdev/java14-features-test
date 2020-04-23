@@ -1,0 +1,1 @@
+java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -jar target/java14-features-test-1.0-SNAPSHOT-jar-with-dependencies.jar
